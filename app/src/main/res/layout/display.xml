@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/display">
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:text="date" />
+    <EditText
+        android:id="@+id/diary"
+        android:layout_below="@id/date"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="top"/>
+    <ImageView
+        android:id="@+id/home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/home" />
+    <Button
+        android:id="@+id/done"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:background="@drawable/done"/>
+
+
+</RelativeLayout>
